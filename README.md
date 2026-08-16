@@ -4,4 +4,4 @@
 
 - 習い事あゆみ — [プライバシーポリシー](naraigoto/privacy.html) / [サポート](naraigoto/support.html)
 
-お問い合わせ: kanemaru@pl-axis.com
+お問い合わせ: alkes.support@gmail.com
