@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alkes</title>
+<style>
+  :root {
+    --bg: #FAF6EF;
+    --text: #4B4237;
+    --accent: #E58C7B;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.6rem;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.02em;
+  }
+  .tagline {
+    font-size: 0.95rem;
+    color: var(--text);
+    opacity: 0.8;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  section {
+    margin-bottom: 2.5rem;
+  }
+  h2 {
+    font-size: 1.05rem;
+    color: var(--text);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.6rem;
+    margin-bottom: 1rem;
+  }
+  ul.apps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  ul.apps li {
+    background: #ffffff;
+    border: 1px solid #E9E1D4;
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.9rem;
+  }
+  ul.apps li .app-name {
+    font-weight: bold;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+  }
+  ul.apps li .app-desc {
+    font-size: 0.9rem;
+    opacity: 0.85;
+    margin-bottom: 0.6rem;
+  }
+  ul.apps li a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.2rem;
+    font-size: 0.9rem;
+  }
+  ul.apps li a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #E9E1D4;
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+  footer a {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Alkes</h1>
+  <p class="tagline">個人開発でiOSアプリを制作しています。</p>
+
+  <section>
+    <h2>アプリ</h2>
+    <ul class="apps">
+      <li>
+        <div class="app-name">習い事あゆみ</div>
+        <div class="app-desc">子どもの習い事の進級記録と、子どもごとの支出を親が管理するアプリです。（現在開発中）</div>
+        <a href="naraigoto/privacy.html">プライバシーポリシー</a>
+        <a href="naraigoto/support.html">サポート</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>お問い合わせ: <a href="mailto:kanemaru@pl-axis.com">kanemaru@pl-axis.com</a></p>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# Alkes
+
+個人開発のiOSアプリに関する、プライバシーポリシーとサポートページを公開しています。
+
+- 習い事あゆみ — [プライバシーポリシー](naraigoto/privacy.html) / [サポート](naraigoto/support.html)
+
+お問い合わせ: kanemaru@pl-axis.com
