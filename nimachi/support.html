@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | 荷待ちタイマー</title>
+<style>
+  :root {
+    --bg: #F5F7FA;
+    --text: #333D47;
+    --accent: #2F5D8C;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.85;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+  .breadcrumb {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .breadcrumb a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 1.2rem;
+  }
+  h2 {
+    font-size: 1.05rem;
+    color: var(--text);
+    border-left: 4px solid var(--accent);
+    padding-left: 0.6rem;
+    margin-top: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+  p, li {
+    font-size: 0.95rem;
+  }
+  .faq-item {
+    background: #ffffff;
+    border: 1px solid #E9E1D4;
+    border-radius: 8px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .faq-q {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  .faq-q::before {
+    content: "Q. ";
+    color: var(--accent);
+  }
+  .faq-a::before {
+    content: "A. ";
+    color: var(--accent);
+    font-weight: bold;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #E9E1D4;
+    font-size: 0.85rem;
+    opacity: 0.75;
+  }
+  footer a {
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="breadcrumb"><a href="../index.html">MARUJU</a> ＞ 荷待ちタイマー</p>
+
+  <h1>サポート</h1>
+
+  <p>「荷待ちタイマー」は、トラックドライバー向けに、荷待ち・荷役の時間を到着から出発まで打刻して記録し、月ごとの明細や荷主別の集計にまとめるためのiOSアプリです。記録はすべて端末内に保存され、外部には送信されません。</p>
+
+  <h2>よくある質問</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">データはどこに保存されますか？</p>
+    <p class="faq-a">アプリをインストールした端末内にのみ保存されます。開発者を含む外部にデータが送信されることはありません。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">位置情報は常に取られますか？</p>
+    <p class="faq-a">いいえ。到着を打刻した瞬間の1点だけを取得します。移動の追跡や、バックグラウンドでの取得は行いません。位置情報を許可しなくても、位置なしで打刻できます。許可の変更は、端末の設定アプリから行えます。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">打刻を忘れたときは？</p>
+    <p class="faq-a">記録の詳細画面で、打刻した時刻を後から修正できます。修正した記録には「修正あり」と表示され、台帳や書き出す明細にも反映されます。時刻の前後関係がおかしいときは、赤字でお知らせします。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">無料で使える範囲と、有料の範囲は？</p>
+    <p class="faq-a">無料：打刻、直近30日の台帳、当月の合計。買い切りのPro（¥730、サブスクリプションではありません）：全期間の履歴の閲覧、荷主別の集計、過去月の集計、PDF・CSVの書き出し。無料版でも、30日より前の記録は削除されません。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">購入したのに機能が解放されません。機種変更後に購入を戻したい。</p>
+    <p class="faq-a">設定画面の「購入を復元」を押してください。購入時と同じApple Accountでサインインしている必要があります。解決しないときは、下記のメールアドレスまでご連絡ください。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">機種変更をしたらデータはどうなりますか？</p>
+    <p class="faq-a">現在のバージョンでは、データは端末内にのみ保存されるため、機種変更時に自動でデータが引き継がれることはありません。書き出したPDF・CSVを本アプリに読み込む機能もありません。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">記録を削除したい場合は？</p>
+    <p class="faq-a">記録の詳細画面の「この記録を削除」で削除できます。アプリを削除（アンインストール）すると、端末内のすべてのデータが削除されます。</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">待機時間料を請求できるかどうかを判断してもらえますか？</p>
+    <p class="faq-a">本アプリは、打刻した記録を集計して帳票にするためのもので、請求の可否や金額の判断、法的な助言は行いません。</p>
+  </div>
+
+  <h2>お問い合わせ</h2>
+  <p>ご不明点・不具合のご報告は、以下のメールアドレスまでご連絡ください。</p>
+  <p><a href="mailto:maruju.app@gmail.com">maruju.app@gmail.com</a></p>
+
+  <footer>
+    <p><a href="privacy.html">プライバシーポリシーへ</a> ／ <a href="../index.html">MARUJU トップへ</a></p>
+  </footer>
+</main>
+</body>
+</html>
