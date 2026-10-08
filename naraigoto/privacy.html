@@ -7,84 +7,25 @@
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <title>プライバシーポリシー | 習い事あゆみ</title>
-<style>
-  :root {
-    --bg: #FAF6EF;
-    --text: #4B4237;
-    --accent: #E58C7B;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    padding: 2rem 1.25rem 4rem;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", sans-serif;
-    line-height: 1.85;
-  }
-  main {
-    max-width: 680px;
-    margin: 0 auto;
-  }
-  .breadcrumb {
-    font-size: 0.85rem;
-    margin-bottom: 1.5rem;
-  }
-  .breadcrumb a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-  .breadcrumb a:hover {
-    text-decoration: underline;
-  }
-  h1 {
-    font-size: 1.5rem;
-    color: var(--accent);
-    margin-bottom: 0.3rem;
-  }
-  .updated {
-    font-size: 0.85rem;
-    opacity: 0.75;
-    margin-top: 0;
-    margin-bottom: 2rem;
-  }
-  h2 {
-    font-size: 1.05rem;
-    color: var(--text);
-    border-left: 4px solid var(--accent);
-    padding-left: 0.6rem;
-    margin-top: 2.2rem;
-    margin-bottom: 0.8rem;
-  }
-  p, li {
-    font-size: 0.95rem;
-  }
-  ul {
-    padding-left: 1.4rem;
-  }
-  .highlight {
-    background: #ffffff;
-    border: 1px solid #E9E1D4;
-    border-radius: 8px;
-    padding: 1rem 1.2rem;
-    font-weight: bold;
-  }
-  footer {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid #E9E1D4;
-    font-size: 0.85rem;
-    opacity: 0.75;
-  }
-  footer a {
-    color: var(--accent);
-  }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&family=BIZ+UDPGothic:wght@400;700&family=Outfit:wght@600&display=swap">
+<link rel="stylesheet" href="../assets/css/maruju.css">
 </head>
 <body>
-<main>
+<div class="mj-container">
+<header class="mj-header">
+  <a class="mj-logotype" href="../index.html" aria-label="MARUJU（丸樹）"><img class="mj-logotype__img" src="../assets/brand/logotype.svg" alt="" width="120" height="65"></a>
+  <nav class="mj-header__nav" aria-label="メイン">
+    <ul>
+      <li><a class="mj-header__link" href="../index.html#apps">アプリ</a></li>
+      <li><a class="mj-header__link" href="#contact">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</header>
+</div>
+<div class="mj-container">
+<main class="mj-doc">
   <p class="breadcrumb"><a href="../index.html">MARUJU</a> ＞ 習い事あゆみ</p>
 
   <h1>プライバシーポリシー</h1>
@@ -138,5 +79,17 @@
     <p><a href="support.html">サポートページへ</a> ／ <a href="../index.html">MARUJU トップへ</a></p>
   </footer>
 </main>
+</div>
+<div class="mj-container mj-footer-wrap">
+<footer class="mj-footer" id="contact">
+  <div>
+    <p class="mj-footer__name"><img class="mj-logotype__img" src="../assets/brand/logotype.svg" alt="MARUJU" width="120" height="65">（丸樹）</p>
+    <p class="mj-footer__contact">お問い合わせ: <a class="mj-link" href="mailto:maruju.app@gmail.com">maruju.app@gmail.com</a></p>
+  </div>
+  <ul class="mj-footer__links">
+    <li><a class="mj-link" href="../index.html#apps">アプリ</a></li>
+  </ul>
+</footer>
+</div>
 </body>
 </html>
